@@ -172,7 +172,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 - **Documentation**: Check the `docs/` folder for detailed guides
 - **Issues**: Report bugs and feature requests via GitHub Issues
-- **Developer**: Created by [Daniel Aditya Istyana](mailto:your-email@example.com)
+- **Developer**: Created by [@adityadaniel](https://x.com/adityadaniel)
 
 ## 🙏 Acknowledgments
 
