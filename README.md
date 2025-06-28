@@ -2,6 +2,8 @@
 
 **FloraFriend** is a modern iOS application that helps plant enthusiasts identify plants instantly using their device's camera. Beyond identification, it serves as a comprehensive digital plant care assistant with AI-powered chat support and automatic plant history tracking.
 
+You can download [FloraFriend](https://apps.apple.com/us/app/plant-identifier-flora-friend/id6747261127) in the App Store.
+
 ## ✨ Features
 
 - **📸 Instant Plant Identification**: Point your camera at any plant and get immediate identification results
