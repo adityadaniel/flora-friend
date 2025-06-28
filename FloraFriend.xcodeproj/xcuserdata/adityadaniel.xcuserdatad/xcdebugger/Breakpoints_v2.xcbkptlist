@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "71DC4DA2-DE2E-492F-BDE0-9C08BAB70E50"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C12EE19C-8A88-49A3-901B-900B590DA02B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FloraFriend/Services/PlantIdentificationService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "identifyPlant(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C12EE19C-8A88-49A3-901B-900B590DA02B - 5103b9122e97680"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for FloraFriend.PlantIdentificationService.identifyPlant(from: __C.UIImage) async throws -&gt; FloraFriend.PlantIdentification"
+                  moduleName = "FloraFriend.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adityadaniel/Developer/FloraFriend/FloraFriend/Services/PlantIdentificationService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105">
+               </Location>
+               <Location
+                  uuid = "C12EE19C-8A88-49A3-901B-900B590DA02B - 104e688315dd9883"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for FloraFriend.PlantIdentificationService.identifyPlant(from: __C.UIImage) async throws -&gt; FloraFriend.PlantIdentification"
+                  moduleName = "FloraFriend.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adityadaniel/Developer/FloraFriend/FloraFriend/Services/PlantIdentificationService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE9EC4C9-B37B-4360-B6EF-9DCE039492ED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FloraFriend/Services/PlantIdentificationService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "identifyPlant(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EE9EC4C9-B37B-4360-B6EF-9DCE039492ED - 5103b9122e976c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for FloraFriend.PlantIdentificationService.identifyPlant(from: __C.UIImage) async throws -&gt; FloraFriend.PlantIdentification"
+                  moduleName = "FloraFriend.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adityadaniel/Developer/FloraFriend/FloraFriend/Services/PlantIdentificationService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103">
+               </Location>
+               <Location
+                  uuid = "EE9EC4C9-B37B-4360-B6EF-9DCE039492ED - 104e688315dd98c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for FloraFriend.PlantIdentificationService.identifyPlant(from: __C.UIImage) async throws -&gt; FloraFriend.PlantIdentification"
+                  moduleName = "FloraFriend.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adityadaniel/Developer/FloraFriend/FloraFriend/Services/PlantIdentificationService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "056FF91D-1659-4AF3-A657-F6A1829608F5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FloraFriend/Services/PlantIdentificationService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "identifyPlant(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "056FF91D-1659-4AF3-A657-F6A1829608F5 - 5103b9122e97504"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for FloraFriend.PlantIdentificationService.identifyPlant(from: __C.UIImage) async throws -&gt; FloraFriend.PlantIdentification"
+                  moduleName = "FloraFriend.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adityadaniel/Developer/FloraFriend/FloraFriend/Services/PlantIdentificationService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101">
+               </Location>
+               <Location
+                  uuid = "056FF91D-1659-4AF3-A657-F6A1829608F5 - 104e688315dd9b07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for FloraFriend.PlantIdentificationService.identifyPlant(from: __C.UIImage) async throws -&gt; FloraFriend.PlantIdentification"
+                  moduleName = "FloraFriend.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adityadaniel/Developer/FloraFriend/FloraFriend/Services/PlantIdentificationService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A82455B-140E-4108-9EDD-8A9EF2A77C48"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FloraFriend/Views/CameraView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "236"
+            endingLineNumber = "236"
+            landmarkName = "loadSelectedPhoto(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D0555272-DD09-4FB7-BFEC-1C679198C7EF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FloraFriend/Services/PlantIdentificationService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "identifyPlant(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D0555272-DD09-4FB7-BFEC-1C679198C7EF - 5103b9122e97598"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for FloraFriend.PlantIdentificationService.identifyPlant(from: __C.UIImage) async throws -&gt; FloraFriend.PlantIdentification"
+                  moduleName = "FloraFriend.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adityadaniel/Developer/FloraFriend/FloraFriend/Services/PlantIdentificationService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97">
+               </Location>
+               <Location
+                  uuid = "D0555272-DD09-4FB7-BFEC-1C679198C7EF - 104e688315dd9b9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for FloraFriend.PlantIdentificationService.identifyPlant(from: __C.UIImage) async throws -&gt; FloraFriend.PlantIdentification"
+                  moduleName = "FloraFriend.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adityadaniel/Developer/FloraFriend/FloraFriend/Services/PlantIdentificationService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,206 @@
+{
+  "model": "gpt-4-vision-preview",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a plant identification expert. Analyze the provided plant image and return detailed information in the specified JSON format. Be accurate and comprehensive in your identification."
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "Please identify this plant and provide comprehensive details including care instructions, characteristics, safety information, habitat, scientific classification, and common uses."
+        },
+        {
+          "type": "image_url",
+          "image_url": {
+            "url": "data:image/jpeg;base64,{base64_encoded_image}"
+          }
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "plant_identification",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "commonName": {
+            "type": "string",
+            "description": "The most common name for this plant"
+          },
+          "scientificName": {
+            "type": "string",
+            "description": "The scientific/latin name of the plant"
+          },
+          "plantDescription": {
+            "type": "string",
+            "description": "Detailed description of the plant's appearance and characteristics"
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Confidence level of identification (0-1)"
+          },
+          "careInstructions": {
+            "type": "object",
+            "properties": {
+              "light": {
+                "type": "string",
+                "description": "Light requirements (e.g., 'Partial shade to full sun')"
+              },
+              "water": {
+                "type": "string",
+                "description": "Water requirements (e.g., 'Keep soil consistently moist')"
+              },
+              "soil": {
+                "type": "string",
+                "description": "Soil preferences (e.g., 'Well-draining, rich in organic matter')"
+              },
+              "temperature": {
+                "type": "string",
+                "description": "Temperature requirements (e.g., 'Hardy in USDA zones 5-9')"
+              },
+              "humidity": {
+                "type": "string",
+                "description": "Humidity preferences (e.g., 'Prefers moderate to high humidity')"
+              },
+              "fertilizer": {
+                "type": "string",
+                "description": "Fertilizer requirements (e.g., 'Use balanced fertilizer during growing season')"
+              }
+            },
+            "required": ["light", "water", "soil", "temperature", "humidity", "fertilizer"]
+          },
+          "characteristics": {
+            "type": "object",
+            "properties": {
+              "height": {
+                "type": "string",
+                "description": "Average mature height (e.g., '3-6 feet (0.9-1.8 meters)')"
+              },
+              "flowering": {
+                "type": "string",
+                "description": "Flowering characteristics (e.g., 'Large, round clusters of flowers')"
+              },
+              "leafDetails": {
+                "type": "string",
+                "description": "Leaf characteristics (e.g., 'Broad, oval leaves with serrated edges')"
+              }
+            },
+            "required": ["height", "flowering", "leafDetails"]
+          },
+          "safetyInfo": {
+            "type": "object",
+            "properties": {
+              "toxicToHumans": {
+                "type": "boolean",
+                "description": "Whether the plant is toxic to humans"
+              },
+              "toxicToPets": {
+                "type": "boolean",
+                "description": "Whether the plant is toxic to pets"
+              },
+              "toxicityDetails": {
+                "type": "string",
+                "description": "Additional toxicity information if applicable"
+              }
+            },
+            "required": ["toxicToHumans", "toxicToPets"]
+          },
+          "habitat": {
+            "type": "string",
+            "description": "Natural habitat description (e.g., 'Wooded areas, often found in temperate regions')"
+          },
+          "origin": {
+            "type": "string",
+            "description": "Geographic origin (e.g., 'Asia and the Americas')"
+          },
+          "classification": {
+            "type": "object",
+            "properties": {
+              "kingdom": {
+                "type": "string",
+                "description": "Taxonomic kingdom"
+              },
+              "family": {
+                "type": "string",
+                "description": "Plant family"
+              },
+              "genus": {
+                "type": "string",
+                "description": "Plant genus"
+              },
+              "species": {
+                "type": "string",
+                "description": "Plant species"
+              }
+            },
+            "required": ["kingdom", "family", "genus", "species"]
+          },
+          "uses": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "use": {
+                  "type": "string",
+                  "description": "Common use for the plant"
+                },
+                "applicable": {
+                  "type": "boolean",
+                  "description": "Whether this use applies to this plant"
+                }
+              },
+              "required": ["use", "applicable"]
+            },
+            "description": "Common uses for this plant"
+          },
+          "priceRange": {
+            "type": "object",
+            "properties": {
+              "min": {
+                "type": "number",
+                "description": "Minimum typical price in USD"
+              },
+              "max": {
+                "type": "number",
+                "description": "Maximum typical price in USD"
+              },
+              "unit": {
+                "type": "string",
+                "description": "Price unit (e.g., 'per plant')"
+              }
+            },
+            "required": ["min", "max", "unit"]
+          },
+          "careLevel": {
+            "type": "string",
+            "enum": ["Easy", "Moderate", "Difficult"],
+            "description": "Overall difficulty of care"
+          }
+        },
+        "required": [
+          "commonName",
+          "scientificName", 
+          "plantDescription",
+          "confidence",
+          "careInstructions",
+          "characteristics",
+          "safetyInfo",
+          "habitat",
+          "origin",
+          "classification",
+          "uses",
+          "priceRange",
+          "careLevel"
+        ]
+      }
+    }
+  },
+  "max_tokens": 4000
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>NSCameraUsageDescription</key>
+	<string>FloraFriend needs camera access to take photos of plants for identification.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>FloraFriend needs photo library access to select plant images for identification.</string>
+</dict>
+</plist>
